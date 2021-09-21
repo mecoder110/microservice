@@ -1,0 +1,16 @@
+movie-ticket url
+
+movie/ticket
+
+movie/seat
+
+movie/book/seat/{seat}
+
+movie/available/seat/{seat}
+
+
+movie-review url
+/movie/review/name{name}
+
+
+>mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8101
